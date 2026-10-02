@@ -68,7 +68,9 @@
           "githubUrl": "https://github.com/pmezard/go-difflib",
           "source": "build_file:go.mod"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/2fd0710ed40518f2a8344176b7be3f9d1b6405d5/chunk-001.nq.gz",
+      "dep": "dep/2fd0710ed40518f2a8344176b7be3f9d1b6405d5.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
