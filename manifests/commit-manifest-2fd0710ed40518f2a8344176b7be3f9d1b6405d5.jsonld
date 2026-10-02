@@ -42,10 +42,36 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/2fd0710ed40518f2a8344176b7be3f9d1b6405d5/chunk-001.nq.gz",
       "repolex:graphFileSize": 1086157
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/2fd0710ed40518f2a8344176b7be3f9d1b6405d5.nq.gz",
+      "repolex:graphFileSize": 306
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-10-01T10:02:28.717870+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/stretchr/testify",
+      "repolex:packageName": "github.com/stretchr/testify",
+      "git:hexsha": "2a57335dc9cd6833daa820bc94d9b40c26a7917d",
+      "git:tagName": "v1.11.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/davecgh/go-spew",
+      "repolex:packageName": "github.com/davecgh/go-spew",
+      "git:hexsha": "8991bc29aa16c548c550c7ff78260e27b9ab7c73",
+      "git:tagName": "v1.1.1"
+    },
+    {
+      "@id": "https://repolex.ai/r/pmezard/go-difflib",
+      "repolex:packageName": "github.com/pmezard/go-difflib",
+      "git:hexsha": "792786c7400a136282c1664665ae0a8db921c6c2",
+      "git:tagName": "v1.0.0"
+    }
+  ]
 }
