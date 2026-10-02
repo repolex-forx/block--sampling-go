@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "sampling-go",
+  "versions": [
+    {
+      "commit": "2fd0710ed40518f2a8344176b7be3f9d1b6405d5",
+      "tag": "main",
+      "parsed_at": "2026-10-02T10:16:35.502251+00:00"
+    }
+  ]
+}
